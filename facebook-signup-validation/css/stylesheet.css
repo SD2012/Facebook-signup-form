@@ -1,0 +1,265 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	background: linear-gradient(white, #D3D8E8);
+}
+header{
+	background-color: #3b5998;
+	width: 100%;
+	margin: 0px;
+	height: auto;
+}
+section{
+	position: relative;
+}
+.header
+{
+	display: flex;
+	width: 980px;
+	margin: 0px auto;
+	justify-content:space-between;
+	box-sizing: border-box
+}
+.headerLeft{
+	flex:2;
+	color: white;
+	padding-top: 20px;
+	font-size: 40px;
+	font-weight: bold;
+}
+.headerRight{
+	flex:1;
+	display: flex;
+	padding-top: 20px;
+	justify-content:space-between;
+	box-sizing: border-box
+}
+.headerLogin{
+	color: #fff;
+	margin-right: 20px;
+}
+input[name="password"], input[name="username"]{
+	border: 1px solid  #3b5998;
+    width: 100%;
+    border-radius: 2px;
+}
+.logIN{
+	width: 50px;
+	margin-top: 18px;
+	background-color: #3b5998;
+	border: 1px solid #7d8eb3;
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 18px;
+}
+a{
+	text-decoration: none;
+	color: #5f6dd0;
+    font-weight: norma
+}
+#contener{
+	position: relative;
+}
+.main{
+	display: flex;
+}
+.leftSide{
+	flex:7;
+	margin-right: 20px;
+}
+.rightSide{
+	flex:5;
+}
+.imgMsg{
+	color: #0e385f;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 29px;
+	margin-top: 40px;
+	width: 450px;
+}
+img{
+	width: 100%;
+}
+.bdayText{
+	font-size: 19px;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.accMsg{
+	margin: 10px 0px;
+	font-size: 40px;
+	color: #333;
+	font-weight:bolder;
+}
+.accMsg1{
+	margin: 10px 0px;
+	color: #1d2129;
+    font-size: 20px;;
+}
+input[name="uname"],input[name="sname"],input[name="mobile-no"],input[name="new-pass"],input[name="custname"]{
+	width: 98%;
+	height: 40px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	outline: none;
+	padding-left: 10px;
+	border: 1px solid #aba3a3;
+
+}
+#errmsg{
+	background: #ffebe8;
+    border: 1px solid #dd3c10;
+    text-align: center;
+    padding: 5px 3px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: none;
+}
+.nameFlex{
+	display: flex;
+	justify-content:space-between;
+	box-sizing: border-box;
+}
+.sel{
+	flex:2;
+}
+.sel1{
+	flex:2;
+	margin-left: 10px;
+	font-size: 13px;
+}
+select{
+	height: 25px;
+    width: 60px;
+    margin-bottom: 20px;
+}
+#genderdisplay{
+	display: flex;
+}
+#mdiv{
+	margin-left: 20px;
+}
+.gender{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.accMsg2{
+	font-size: 13px;
+	margin-bottom: 20px;
+}
+.button{
+	background-color: green;
+	width: 160px;
+	color: white;
+	padding: 10px;
+	font-size: 20px;
+	text-align: center;
+	border: none;
+	margin-bottom: 20px;
+}
+#cum{
+	display:none;
+}
+#hide{
+	display: none;
+}
+.new-page{
+	margin: 10px 0;
+}
+.new-page h4{
+	color: #666;
+}
+a{
+	text-decoration: none;
+}
+footer{
+	background-color: #fff;
+	color: #1d2129;
+	padding: 20px;
+	font-size: 12px;
+	width: 75%;
+	margin: auto;
+}
+footer div:last-child, footer div:first-child{
+	padding-top: 25px;
+}
+footer ul li{
+	list-style: none;
+	padding-right: 20px; 
+	padding-bottom: 5px;
+	color: #365899;
+}
+footer ul li:hover{
+	text-decoration: underline;
+}
+footer hr{
+	color: #365899;
+}
+footer ul{
+	display: flex;
+	justify-content: space between;
+	flex-wrap: wrap;
+	padding: 0;
+	margin: 0;
+}
+footer div:first-child{
+	font-size: 10px;
+	color: #737373;
+}
+span{
+	padding: 5px;
+	text-align: justify;
+}
+#tooltips{
+	position: relative;
+}
+.tooltip{
+	max-width: 300px;
+    min-width: 120px;
+    width: max-content;
+	height: auto;
+	display: inline;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	background-color: #b94a48;
+	color: #fff;
+	padding: 15px;
+	border-radius: 3px;
+	position: absolute;
+	font-size: 12px;
+	/*top: 190px;
+	right: 55px;*/
+	display: none;
+}
+.arrowleft{
+	width: 0; 
+	height: 0; 
+	border-right: 10px solid transparent;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;  
+	border-left: 10px solid #b94a48;
+	position: absolute;
+	/*top: 13px;
+	right: -20px;*/
+	display: none;
+}
+#name-tip{
+	display: block;
+}
+.arrowbottom{
+	width: 0; 
+	height: 0; 
+	border-right: 10px solid transparent;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid #b94a48;  
+	border-left: 10px solid transparent;
+	position: absolute;
+	/*top: 45px;
+	right: -250px;*/
+	display: none;
+}

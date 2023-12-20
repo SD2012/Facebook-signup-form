@@ -1,0 +1,106 @@
+/* *{
+	border: 1px solid red;
+} */
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+header{
+	background-color: #3b5998;
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+.back_disp{
+	display: flex;
+	width: 80%;
+}
+
+#head_logo{
+	display: flex;
+	justify-content: center;
+	width: 50%;
+	color: white;
+}
+#head_logo span{
+	font-size: 40px;
+    font-weight: bold;
+}
+
+#login{
+	display: flex;
+	width: 50%;
+	text-align: left;
+	color: white;
+	justify-content: center;
+}
+#login input{
+	border: 1px solid #3b5998;
+    border-radius: 1px;
+	margin: 2px;
+	padding: 2px;
+}
+#login-forgot-Pass {
+	text-decoration-line: none;
+	color: rgb(107, 107, 221);
+}
+#login button{
+	margin-top: 21px;
+	background-color: #3b5998;;
+	border: 1px solid #a5bdef;
+	color: white;
+    border-radius: 1px;
+}
+section{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	background: linear-gradient(white, #D3D8E8);
+}
+#sec-img{
+	width: 50%;
+}
+#imgMsg{
+	color: #3c465a;
+    font-size: 23px;
+    padding: 0px 20px;
+    font-weight: bold
+   }
+   #imgMsg p { 
+	margin-bottom: 0px;
+   }
+#sec-login{
+	width: 50%;
+}
+.name{
+	display: flex;
+	justify-content: space-between;
+}
+.Name{
+	width: 45%;
+	height: auto;
+}
+ input[name="fname"],[name="sname"],[name="mobile-no"],[name="custname"],[name="new-pass"],[class="bithdayflex"]{
+	width: 98%;
+	height: 40px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	outline: none;
+	border: 1px solid #aba3a3;
+}
+.bithdayflex{
+	display: flex;
+	justify-content: space-between;
+	border: none;
+}
+.bithdayflexleft{
+	width: 40%;
+	display: flex;
+}
+.bithdayflexright{
+	width: 60%;
+	margin-left: 10px;
+	font-size: 15px;
+}
